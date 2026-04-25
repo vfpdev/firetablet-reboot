@@ -1,0 +1,15 @@
+Fire Reboot
+Copyright (c) 2026 Valeriano Ferreras Paz
+
+This product includes icon path data from Google Material Symbols
+(https://fonts.google.com/icons), used under the Apache License, Version 2.0:
+
+  https://www.apache.org/licenses/LICENSE-2.0
+
+The following icons are derived from Material Symbols:
+  - res/drawable/ic_launcher_foreground.xml  (power_settings_new)
+  - res/drawable/ic_settings.xml             (settings)
+  - res/drawable/ic_accessibility.xml        (accessibility)
+  - res/drawable/ic_shield.xml               (shield)
+  - res/drawable/ic_battery.xml              (battery_full)
+  - res/drawable/ic_chevron.xml              (chevron_right)

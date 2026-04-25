@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire Reboot</string>
+    <string name="subtitle">HTTP Reboot Server</string>
+    <string name="ip_not_connected">(Not connected to Wi-Fi)</string>
+
+    <string name="section_status">STATUS</string>
+    <string name="section_actions">ACTIONS</string>
+    <string name="section_on_device">ON-DEVICE ACTIONS</string>
+    <string name="section_commands">COMMANDS</string>
+    <string name="section_all_toggles">ALL TOGGLES</string>
+
+    <string name="status_a11y">Accessibility service</string>
+    <string name="status_admin">Device admin</string>
+    <string name="status_battery">Battery optimization</string>
+    <string name="status_http">HTTP server</string>
+
+    <string name="state_active">ACTIVE</string>
+    <string name="state_off">OFF</string>
+    <string name="state_disabled">DISABLED</string>
+    <string name="state_port_fmt">PORT %d</string>
+
+    <string name="action_a11y_enable">Enable accessibility</string>
+    <string name="action_a11y_via_settings">…or open system settings</string>
+    <string name="action_admin_enable">Enable device admin</string>
+    <string name="action_battery_disable">Disable battery optimization</string>
+
+    <string name="btn_reboot">Reboot</string>
+    <string name="btn_lock">Lock</string>
+    <string name="common_cancel">Cancel</string>
+
+    <string name="confirm_reboot_title">Reboot tablet?</string>
+    <string name="confirm_reboot_msg">The tablet will reboot immediately.</string>
+
+    <string name="cmd_reboot">Reboot</string>
+    <string name="cmd_screen_off">Screen off</string>
+    <string name="cmd_screen_on">Screen on</string>
+
+    <string name="toggle_a11y_sub">For reboot via power menu</string>
+    <string name="toggle_admin_sub">For screen locking</string>
+    <string name="toggle_battery_sub_off">Off — app keeps running in background</string>
+    <string name="toggle_battery_sub_on">On — auto-start unreliable</string>
+
+    <string name="nav_a11y_settings">Accessibility system settings</string>
+    <string name="nav_app_details">Open app details</string>
+
+    <string name="toast_a11y_inactive">Accessibility service not active</string>
+    <string name="toast_admin_or_a11y">Device admin or accessibility required</string>
+    <string name="toast_admin_off_manual">Disable manually under Settings → Security</string>
+    <string name="toast_action_unavailable">This action is unavailable on Fire OS</string>
+    <string name="toast_grant_secure">One-time via ADB:\nadb shell pm grant %s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="toast_write_blocked">Write blocked — opening settings</string>
+    <string name="toast_fireos_no_bind">Fire OS won\'t bind the service — please enable manually in settings</string>
+
+    <string name="admin_explanation">Allows screen locking without going through accessibility.</string>
+
+    <string name="footer_version_fmt">v%1$s  ·  Port %2$d</string>
+
+    <string name="notif_channel">HTTP server</string>
+    <string name="notif_title">Reboot server</string>
+    <string name="notif_text_fmt">Listening on port %d</string>
+
+    <string name="accessibility_description">Allows the Reboot app to open the power menu and tap \"Restart\".</string>
+
+    <string name="nav_language">Language</string>
+    <string name="lang_system">System default</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_en">English</string>
+</resources>

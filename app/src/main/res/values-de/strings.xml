@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire Reboot</string>
+    <string name="subtitle">HTTP-Reboot-Server</string>
+    <string name="ip_not_connected">(WLAN nicht verbunden)</string>
+
+    <string name="section_status">STATUS</string>
+    <string name="section_actions">AKTIONEN</string>
+    <string name="section_on_device">AKTIONEN AM TABLET</string>
+    <string name="section_commands">BEFEHLE</string>
+    <string name="section_all_toggles">ALLE TOGGLES</string>
+
+    <string name="status_a11y">Bedienungshilfen-Dienst</string>
+    <string name="status_admin">Geräteadmin</string>
+    <string name="status_battery">Akku-Optimierung</string>
+    <string name="status_http">HTTP-Server</string>
+
+    <string name="state_active">AKTIV</string>
+    <string name="state_off">AUS</string>
+    <string name="state_disabled">DEAKTIVIERT</string>
+    <string name="state_port_fmt">PORT %d</string>
+
+    <string name="action_a11y_enable">Bedienungshilfen aktivieren</string>
+    <string name="action_a11y_via_settings">…oder Systemeinstellungen öffnen</string>
+    <string name="action_admin_enable">Geräteadmin aktivieren</string>
+    <string name="action_battery_disable">Akku-Optimierung deaktivieren</string>
+
+    <string name="btn_reboot">Neu starten</string>
+    <string name="btn_lock">Sperren</string>
+    <string name="common_cancel">Abbrechen</string>
+
+    <string name="confirm_reboot_title">Tablet neu starten?</string>
+    <string name="confirm_reboot_msg">Das Tablet wird sofort rebooten.</string>
+
+    <string name="cmd_reboot">Reboot</string>
+    <string name="cmd_screen_off">Bildschirm aus</string>
+    <string name="cmd_screen_on">Bildschirm an</string>
+
+    <string name="toggle_a11y_sub">Für Reboot via Power-Menü</string>
+    <string name="toggle_admin_sub">Für Bildschirm-Sperren</string>
+    <string name="toggle_battery_sub_off">Aus — App läuft im Hintergrund weiter</string>
+    <string name="toggle_battery_sub_on">An — Auto-Start riskant</string>
+
+    <string name="nav_a11y_settings">Bedienungshilfen-Systemeinstellungen</string>
+    <string name="nav_app_details">App-Details öffnen</string>
+
+    <string name="toast_a11y_inactive">Bedienungshilfen-Dienst nicht aktiv</string>
+    <string name="toast_admin_or_a11y">Geräteadmin oder Bedienungshilfen nötig</string>
+    <string name="toast_admin_off_manual">Manuell unter Einstellungen → Sicherheit deaktivieren</string>
+    <string name="toast_action_unavailable">Diese Aktion ist auf Fire OS nicht verfügbar</string>
+    <string name="toast_grant_secure">Einmalig per ADB:\nadb shell pm grant %s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="toast_write_blocked">Schreibvorgang blockiert — öffne Einstellungen</string>
+    <string name="toast_fireos_no_bind">Fire OS bindet den Dienst nicht — bitte in Einstellungen manuell aktivieren</string>
+
+    <string name="admin_explanation">Erlaubt Bildschirm-Sperren ohne Bedienungshilfen-Umweg.</string>
+
+    <string name="footer_version_fmt">v%1$s  ·  Port %2$d</string>
+
+    <string name="notif_channel">HTTP-Server</string>
+    <string name="notif_title">Reboot-Server</string>
+    <string name="notif_text_fmt">Lauscht auf Port %d</string>
+
+    <string name="accessibility_description">Erlaubt der Reboot-App, das Power-Menü zu öffnen und den Eintrag „Neu starten\" zu drücken.</string>
+
+    <string name="nav_language">Sprache</string>
+    <string name="lang_system">Systemvorgabe</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_en">English</string>
+</resources>

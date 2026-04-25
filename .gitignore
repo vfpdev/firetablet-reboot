@@ -1,0 +1,26 @@
+# Build outputs
+build/
+app/build/
+.gradle/
+
+# Local config (contains absolute paths, secrets)
+local.properties
+
+# Signing keys
+*.jks
+*.keystore
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Captured outputs
+captures/
+
+# Kotlin
+.kotlin/
