@@ -1,6 +1,8 @@
-<img src="docs/icon.png" width="96" align="left" alt="Fire Reboot icon" />
+<p align="center">
+  <img src="docs/icon.png" width="96" alt="Fire Reboot icon" />
+</p>
 
-# Fire Reboot
+<h1 align="center">Fire Reboot</h1>
 
 HTTP-controlled **reboot**, **screen lock**, and **screen wake** for Android / Fire OS tablets.
 
@@ -109,8 +111,7 @@ For a faster debug build without R8 minification:
 A few Fire-OS-specific things to know:
 
 - After every APK update Android automatically disables the accessibility service (security feature). Re-enable in the **Accessibility** settings, or run `adb reboot` — the AccessibilityManagerService rebinds on a fresh boot. The HTTP service itself restarts automatically via `MY_PACKAGE_REPLACED`.
-- Port 8080 conflicts with **MacroDroid**'s built-in HTTP server. Either uninstall MacroDroid or build with `-PREBOOT_PORT=8089`.
-- A Profile Owner (Amazon Parental Controls) is preinstalled on Fire tablets. This blocks the cleaner *Device Owner* approach; the app uses Accessibility + Device Admin instead.
+- If port 8080 is already in use on the tablet (some apps run their own HTTP server), build with `-PREBOOT_PORT=8089` or another free port.
 
 ## Screenshots
 
