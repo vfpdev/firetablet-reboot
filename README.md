@@ -98,7 +98,7 @@ cd firetablet-reboot
 # APK at app/build/outputs/apk/release/app-release.apk
 ```
 
-The release build is signed with the local Android debug keystore (`~/.android/debug.keystore`) so you can sideload immediately. The same keystore is used across all your local debug builds, so an APK replacement looks like an in-place update. To publish as a separate identity, configure a real keystore via `signingConfigs` — the README intentionally does not.
+The release build is signed with your local Android debug keystore (`~/.android/debug.keystore`) so you can sideload it immediately. Anyone you share the resulting APK with can install it — Android only requires a valid signature, not a specific publisher. Subsequent APKs you build on the same machine will share the key and update in place. If you want a stable, separate identity for distributing wider, configure a real keystore in `signingConfigs`.
 
 For a faster debug build without R8 minification:
 
